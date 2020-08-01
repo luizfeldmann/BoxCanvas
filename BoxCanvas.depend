@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1596251962 source:d:\developer\boxcanvas\boxcanvas.c
+	"boxcanvas.h"
+	<stdio.h>
+	<stdlib.h>
+
+1596251962 d:\developer\boxcanvas\boxcanvas.h
+	<stdint.h>
+	"../BrailleCanvas/BrailleCanvas/terminal.h"
+
+1596248666 d:\developer\braillecanvas\braillecanvas\terminal.h
+	<stdint.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<windows.h>
+
+1596254248 source:d:\developer\boxcanvas\main_tests.c
+	"boxcanvas.h"
+	"terminaldialogbox.h"
+	<stdio.h>
+
+1596251962 d:\developer\boxcanvas\terminaldialogbox.h
+	<stdint.h>
+
+1596248652 source:d:\developer\braillecanvas\braillecanvas\terminal.c
+	"terminal.h"
+	<stdio.h>
+	<stdlib.h>
+	<pthread.h>
+
+1596252105 source:d:\developer\boxcanvas\port_kbhit.c
+	"port_kbhit.h"
+	<fcntl.h>
+	<sys/ioctl.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+
+1596252085 d:\developer\boxcanvas\port_kbhit.h
+	<conio.h>
+
+1596253477 source:d:\developer\boxcanvas\terminaldialogbox.c
+	"terminaldialogbox.h"
+	"../BrailleCanvas/BrailleCanvas/terminal.h"
+	"port_kbhit.h"
+	"tinydir.h"
+	"boxcanvas.h"
+	<stdio.h>
+	<ctype.h>
+
+1588884461 d:\developer\boxcanvas\tinydir.h
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<tchar.h>
+	<dirent.h>
+	<libgen.h>
+	<sys/stat.h>
+	<stddef.h>
+	<tchar.h>
+	<windows.h>
+	<limits.h>
+	<sys/param.h>
+	<limits.h>
+	<unistd.h>
+	<sys/types.h>
+
